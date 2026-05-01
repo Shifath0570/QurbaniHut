@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Bella",
+    "type": "Cow",
+    "breed": "Holstein Friesian",
+    "description": "High milk-producing dairy cow.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg",
+    "category": "Milk Production",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Max",
+    "type": "Cow",
+    "breed": "Angus",
+    "description": "Premium beef cattle known for high-quality meat.",
+    "image": "https://cdn.britannica.com/39/76939-050-B787E5BF/bull-Black-Angus.jpg",
+    "category": "Meat Production",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Mimi",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "description": "Popular local goat breed, famous for tender meat.",
+    "image": "https://cdn.morningchores.com/wp-content/uploads/2019/08/Black-Bengal-Goat-Breed-Info-Characteristics-Breeding-and-Care-FI-1.jpg",
+    "category": "Meat Production",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Lily",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "description": "Large dairy goat with excellent milk production.",
+    "image": "https://5.imimg.com/data5/SELLER/Default/2020/10/LX/ZZ/OW/53911381/male-jamunapari-goats-500x500.jpg",
+    "category": "Milk Production",
+    "featured": true
+  }
+]

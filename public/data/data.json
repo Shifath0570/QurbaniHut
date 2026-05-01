@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Bella",
+    "type": "Cow",
+    "breed": "Holstein Friesian",
+    "price": 1200,
+    "weight": 650,
+    "age": 4,
+    "location": "Dhaka, Bangladesh",
+    "description": "Milk-producing cow with black and white .", 
+    "image": "https://cdn.britannica.com/11/136111-050-174C2796/Holstein-cow.jpg",
+    "category": "Milk Production"
+  },
+  {
+    "id": 2,
+    "name": "Rosie",
+    "type": "Cow",
+    "breed": "Jersey",
+    "price": 1000,
+    "weight": 500,
+    "age": 3,
+    "location": "Chattogram, Bangladesh",
+    "description": "Produces rich milk with high butterfat content.",
+    "image": "https://cdn.britannica.com/22/522-050-25222A61/Jersey-cow.jpg",
+    "category": "Milk Production"
+  },
+  {
+    "id": 3,
+    "name": "Max",
+    "type": "Cow",
+    "breed": "Angus",
+    "price": 1500,
+    "weight": 700,
+    "age": 5,
+    "location": "Rajshahi, Bangladesh",
+    "description": "Beef cattle known for premium meat quality.",
+    "image": "https://cdn.britannica.com/39/76939-050-B787E5BF/bull-Black-Angus.jpg",
+    "category": "Meat Production"
+  },
+  {
+    "id": 4,
+    "name": "Nandi",
+    "type": "Cow",
+    "breed": "Red Chittagong",
+    "price": 900,
+    "weight": 400,
+    "age": 3,
+    "location": "Chattogram, Bangladesh",
+    "description": "Indigenous Bangladeshi breed adapted to local climate.",
+    "image": "https://api.bracai.net/storage/media/original/267-rc-pro-1-1721024491.jpg",
+    "category": "Local Breed"
+  },
+  {
+    "id": 5,
+    "name": "Rocky",
+    "type": "Cow",
+    "breed": "Hereford",
+    "price": 1400,
+    "weight": 720,
+    "age": 6,
+    "location": "Sylhet, Bangladesh",
+    "description": "Hardy beef breed suitable for various climates.",
+    "image": "https://www.herefordcattle.org/wp-content/uploads/2022/03/DSC_0023.jpg",
+    "category": "Meat Production"
+  },
+  {
+    "id": 6,
+    "name": "Billy",
+    "type": "Goat",
+    "breed": "Boer",
+    "price": 600,
+    "weight": 90,
+    "age": 2,
+    "location": "Dhaka, Bangladesh",
+    "description": "Popular meat goat breed with fast growth rate.",
+    "image": "https://smartrepro.com/wp-content/uploads/2023/10/mcr-trademark.jpeg",
+    "category": "Meat Production"
+  },
+  {
+    "id": 7,
+    "name": "Lily",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 700,
+    "weight": 80,
+    "age": 3,
+    "location": "Rajshahi, Bangladesh",
+    "description": "Large dairy goat known for good milk production.",
+    "image": "https://www.agrifarming.in/wp-content/uploads/Key-Rules-to-Start-Jamunapari-Goat-Farming3.jpg",
+    "category": "Milk Production"
+  },
+  {
+    "id": 8,
+    "name": "Mimi",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 500,
+    "weight": 35,
+    "age": 2,
+    "location": "Khulna, Bangladesh",
+    "description": "Famous Bangladeshi goat breed known for tasty meat.",
+    "image": "https://cdn.morningchores.com/wp-content/uploads/2019/08/Black-Bengal-Goat-Breed-Info-Characteristics-Breeding-and-Care-FI-1.jpg",
+    "category": "Meat Production"
+  },
+  {
+    "id": 9,
+    "name": "Oscar",
+    "type": "Goat",
+    "breed": "Saanen",
+    "price": 750,
+    "weight": 85,
+    "age": 4,
+    "location": "Mymensingh, Bangladesh",
+    "description": "High milk-producing goat breed with white coat.",
+    "image": "https://proagri.co.za/wp-content/uploads/2023/04/Saanen-buck-1024x954.jpg",
+    "category": "Milk Production"
+  },
+  {
+    "id": 10,
+    "name": "Daisy",
+    "type": "Goat",
+    "breed": "Beetal",
+    "price": 650,
+    "weight": 70,
+    "age": 3,
+    "location": "Sylhet, Bangladesh",
+    "description": "Dual-purpose goat for milk and meat.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Beetal_Goat_Faisalabad_Panjab_Pakistan.jpg",
+    "category": "Dual Purpose"
+  },
+  {
+    "id": 11,
+    "name": "Charlie",
+    "type": "Cow",
+    "breed": "Simmental",
+    "price": 1450,
+    "weight": 750,
+    "age": 5,
+    "location": "Comilla, Bangladesh",
+    "description": "Dual-purpose cow used for milk and beef.",
+    "image": "https://cdn.agriland.ie/uploads/2022/01/SI-scaled.jpg",
+    "category": "Dual Purpose"
+  }
+]
+
+
+
+
