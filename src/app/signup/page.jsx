@@ -2,8 +2,10 @@
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
+import { useRouter } from "next/navigation";
 
 const SignUpPage = () => {
+    const router = useRouter()
     const onSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
@@ -22,8 +24,9 @@ const SignUpPage = () => {
         if (error) {
             alert("There is a Error" + error.message)
         }
-        if (data) {
-            alert("data Is succesfylly going database")
+        if(data){
+            router.push("/signin")
+            alert("sign Up Done")
         }
     }
     return (
