@@ -17,7 +17,7 @@ const AnimalCard = ({ data }) => {
                     <h2 className="card-title">{name}</h2>
                     <p className="text-sm">{description}</p>
                     <div className="flex justify-center items-center">
-                        <Link href={`${id}`}>
+                        <Link href={`/all-animals/${id}`}>
                             <button className="btn">Animal Details</button>
                         </Link>
                     </div>
