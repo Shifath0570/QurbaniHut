@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "@heroui/styles";
 
 .banner {
     height: 80vh;
