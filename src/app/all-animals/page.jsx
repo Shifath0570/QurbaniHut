@@ -1,8 +1,9 @@
 import AnimalCard from "@/component/AnimalCard/AnimalCard";
-import { getAllAnimalData } from "@/lib/data";
 
 const AllAnimalsPage =async () => {
-    const datas = await getAllAnimalData();
+    const res = await fetch("https://qurbani-hut-iyr5.vercel.app/data/data.json")
+    const datas = await res.json()
+
     return (
         <div className="container mx-auto">
             <h2 className="text-center text-3xl font-semibold my-15">All Animals</h2>

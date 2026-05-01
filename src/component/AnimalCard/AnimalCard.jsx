@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const AnimalCard = ({ data }) => {
-    const { name, type, breed, price, weight, age, location, description, image, category } = data;
+    const { id, name, type, breed, price, weight, age, location, description, image, category } = data;
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
@@ -16,7 +17,9 @@ const AnimalCard = ({ data }) => {
                     <h2 className="card-title">{name}</h2>
                     <p className="text-sm">{description}</p>
                     <div className="flex justify-center items-center">
-                        <button className="btn">Animal Details</button>
+                        <Link href={`${id}`}>
+                            <button className="btn">Animal Details</button>
+                        </Link>
                     </div>
                 </div>
 

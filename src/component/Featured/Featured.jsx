@@ -1,9 +1,9 @@
-import { getFeatureData } from "@/lib/data";
 import FeatureCard from "../FeatureCard/FeatureCard";
 
 
 const Featured =async () => {
-    const datas = await getFeatureData()
+    const res = await fetch("https://qurbani-hut-iyr5.vercel.app/data/featureData.json")
+    const datas = await res.json()
 
     return (
         <div className="container mx-auto ">
