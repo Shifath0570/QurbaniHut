@@ -1,3 +1,4 @@
+import UserBuyDetails from "@/component/UserBuyDetails/UserBuyDetails";
 import Image from "next/image";
 
 const AnimalDetailsPage = async ({ params }) => {
@@ -26,8 +27,11 @@ const AnimalDetailsPage = async ({ params }) => {
                     <p>Price : {price}</p>
                     <p>Category : {category}</p>
                     <p>Location : {location}</p>
-                    
                 </div>
+            </div>
+
+            <div className="flex justify-center items-center my-20">
+                <UserBuyDetails></UserBuyDetails>
             </div>
         </div>
     );

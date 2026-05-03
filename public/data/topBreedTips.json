@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Holstein Friesian",
+    "description": "Among the most well-liked dairy cow for qurbani worldwide is the Holstein Friesian. It is well-known for its eye-catching black and white markings and well-regarded for producing large amounts of milk. Though mostly bred for dairy, Holstein Friesians produce a sizable amount of meat as well. They are appropriate for Qurbani because of their size, which provides plenty of flesh to share with loved ones and the less fortunate.",
+    "image": "https://nzholstein.org.nz/wp-content/uploads/2022/12/Meander-TT-Feature-ET-S2F-1600x900.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Angus",
+    "description": "Scottish-bred Angus cattle are famous for having the highest quality meat. Their delicate, well-marbled beef makes them a favourite among Qurbani. Because of their calm disposition and ability to adjust to different temperatures, Angus cows are highly valued, which is advantageous throughout the Qurbani process.",
+    "image": "https://hicksbeef.com.au/wp-content/uploads/2021/12/RED-ANGUUS-HOME-PAGE.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Billy",
+    "description": "For Billy Goat turf equipment, maximize performance by keeping blades sharp and clearing deck clogs, as dull blades and clogged decks significantly reduce efficiency. Use a fuel stabilizer to prevent carburetor issues during off-seasons. In dry, hard soil, add maximum weight to drum aerators for proper plug depth.",
+    "image": "https://cdn.pixabay.com/photo/2025/06/26/05/04/billy-goat-9681169_1280.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Oscar",
+    "description": "Saanen goats, often called the are renowned for being the highest milk-producing breed, typically yielding 3-5 litres daily. Originating from Switzerland, they are large, docile, pure white or cream-colored, and ideal for commercial dairy farming.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4s7XhI4W2AYHV1prgTMDIAGfF4VuE054GWQ&s"
+  }
+]

@@ -1,8 +1,16 @@
+"use client"
 import Image from "next/image";
 import NavImage from "../../../public/asset/QurbaniHatt.png"
 import Link from "next/link";
+import { authClient } from "@/lib/auth-client";
+import { Avatar, Button } from "@heroui/react";
 
 const Navbar = () => {
+    const userData = authClient.useSession()
+    const user = userData.data?.user;
+    const handleSignOut = async () => {
+        await authClient.signOut()
+    }
     return (
         <div className="navbar bg-base-100 shadow-sm ">
             <div className="container mx-auto flex justify-between items-center">
@@ -19,7 +27,6 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Image src={NavImage} alt="nav_Icon" height={40} width={50}></Image>
-                    {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -28,12 +35,28 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link href='/signup'>
-                        <button className="btn">Log out</button>
-                    </Link>
-                    <Link href='/signin'>
-                        <button className="btn">Log in</button>
-                    </Link>
+                    {
+                        !user &&
+                        <div className="space-x-2">
+                            <Link href='/signup'>
+                                <button className="btn">SignUp</button>
+                            </Link>
+                            <Link href='/signin'>
+                                <button className="btn">SignIn</button>
+                            </Link>
+                        </div>
+                    }
+                    {
+                        user && <div className="flex gap-3">
+                            <Link href="/profile">
+                                <Avatar>
+                                    <Avatar.Image alt="John Doe" src={user?.image} referrerPolicy="no-referrer" />
+                                    <Avatar.Fallback>{user?.name[0].charAt(0)}</Avatar.Fallback>
+                                </Avatar>
+                            </Link>
+                            <Button onClick={handleSignOut} variant="danger">SignOut</Button>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
