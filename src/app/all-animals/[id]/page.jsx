@@ -1,4 +1,4 @@
-import UserBuyDetails from "@/component/UserBuyDetails/UserBuyDetails";
+import UserBuyDetails from "@/components/UserBuyDetails/UserBuyDetails";
 import Image from "next/image";
 
 const AnimalDetailsPage = async ({ params }) => {

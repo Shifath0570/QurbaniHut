@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import AnimalCard from "@/component/AnimalCard/AnimalCard";
+import AnimalCard from "@/components/AnimalCard/AnimalCard";
 
 const AllAnimalsPage = () => {
 

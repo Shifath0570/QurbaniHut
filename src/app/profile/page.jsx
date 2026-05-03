@@ -1,5 +1,5 @@
 "use client"
-import { UpdateUserProfile } from "@/component/UpdateUserProfile/UpdateUserProfile";
+import { UpdateUserProfile } from "@/components/UpdateUserProfile/UpdateUserProfile";
 import { authClient } from "@/lib/auth-client";
 import { Avatar } from "@heroui/react";
 

@@ -1,6 +1,6 @@
-import Banner from "@/component/Banner/Banner";
-import Featured from "@/component/Featured/Featured";
-import BestBreedAndTips from "@/component/BestBreedAndTips/BestBreedAndTips"
+import Banner from "@/components/Banner/Banner";
+import Featured from "@/components/Featured/Featured";
+import BestBreedAndTips from "@/components/BestBreedAndTips/BestBreedAndTips"
 import Image from "next/image";
 
 export default function Home() {
