@@ -22,16 +22,16 @@ const Navbar = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><Link href="/">Home</Link></li>
-                            <li><Link href="/all-animals">All Animals</Link></li>
+                            <li><Link href="/" className="text-md font-semibold">Home</Link></li>
+                            <li><Link href="/all-animals" className="text-md font-semibold">All Animals</Link></li>
                         </ul>
                     </div>
                     <Image src={NavImage} alt="nav_Icon" height={40} width={50}></Image>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link href="/">Home</Link></li>
-                        <li><Link href="/all-animals">All Animals</Link></li>
+                        <li><Link href="/" className="text-md font-semibold">Home</Link></li>
+                        <li><Link href="/all-animals" className="text-md font-semibold">All Animals</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
@@ -39,10 +39,10 @@ const Navbar = () => {
                         !user &&
                         <div className="space-x-2">
                             <Link href='/signup'>
-                                <button className="btn">SignUp</button>
+                                <button className="btn bg-green-600 text-white">Register</button>
                             </Link>
                             <Link href='/signin'>
-                                <button className="btn">SignIn</button>
+                                <button className="btn bg-green-600 text-white">Log in</button>
                             </Link>
                         </div>
                     }
@@ -54,7 +54,7 @@ const Navbar = () => {
                                     <Avatar.Fallback>{user?.name[0].charAt(0)}</Avatar.Fallback>
                                 </Avatar>
                             </Link>
-                            <Button onClick={handleSignOut} variant="danger">SignOut</Button>
+                            <Button onClick={handleSignOut} variant="danger">Log out</Button>
                         </div>
                     }
                 </div>

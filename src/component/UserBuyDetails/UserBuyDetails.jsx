@@ -18,8 +18,7 @@ const UserBuyDetails = () => {
             <div className="card">
                 <Form onSubmit={handleSubmit} className="w-full max-w-96">
                     <Fieldset className='w-96'>
-                        <Fieldset.Legend>Profile Settings</Fieldset.Legend>
-                        <Description>Update your profile information.</Description>
+                        <Fieldset.Legend className="my-2">Enter customer Information</Fieldset.Legend>
                         <FieldGroup>
                             <TextField
                                 isRequired

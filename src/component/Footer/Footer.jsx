@@ -3,7 +3,7 @@ import NavImage from "../../../public/asset/QurbaniHatt.png"
 
 const Footer = () => {
     return (
-        <footer className="bg-blue-400 py-10 mt-10">
+        <footer className="bg-green-200 py-10 mt-10">
             <div className="flex justify-between items-center py-10 container mx-auto">
                 <div className="footer-col">
                     <Image src={NavImage} alt="nav_Icon" height={40} width={50}></Image>

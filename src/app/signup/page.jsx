@@ -3,6 +3,7 @@ import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import { Button, Description, FieldError, Form, Input, Label, TextField } from "@heroui/react";
 import { useRouter } from "next/navigation";
+import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
 const SignUpPage = () => {
@@ -21,18 +22,24 @@ const SignUpPage = () => {
             password: userData.password,
             callbackURL: '/',
         })
-        
+
         if (error) {
             toast.error("Sign up error is : " + error.message)
         }
         if (data) {
-            router.push("/")
+            router.push("/signin")
             toast.success("Sign Up Successfully 🐄")
         }
     }
+
+    const handleGoogleSignIn = async () => {
+        await authClient.signIn.social({
+            provider: 'google'
+        })
+    }
     return (
         <div className="my-20 flex justify-center items-center">
-            <div className="card bg-lime-100">
+            <div className="card bg-cyan-200">
                 <Form className="flex w-96 flex-col gap-4" onSubmit={onSubmit}>
                     <TextField
                         isRequired
@@ -101,6 +108,8 @@ const SignUpPage = () => {
                         </Button>
                     </div>
                 </Form>
+                <p className="text-center">Or</p>
+                <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'}><GrGoogle></GrGoogle> Sing In With Google</Button>
             </div>
         </div>
     );

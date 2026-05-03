@@ -21,7 +21,7 @@
     "weight": 500,
     "age": 3,
     "location": "Chattogram, Bangladesh",
-    "description": "Produces rich milk with high butterfat content.",
+    "description": "Produces rich milk with high butterfat.",
     "image": "https://cdn.britannica.com/22/522-050-25222A61/Jersey-cow.jpg",
     "category": "Milk Production"
   },
@@ -34,7 +34,7 @@
     "weight": 700,
     "age": 5,
     "location": "Rajshahi, Bangladesh",
-    "description": "Beef cattle known for premium meat quality.",
+    "description": "Beef cattle for premium meat quality.",
     "image": "https://cdn.britannica.com/39/76939-050-B787E5BF/bull-Black-Angus.jpg",
     "category": "Meat Production"
   },
@@ -47,7 +47,7 @@
     "weight": 400,
     "age": 3,
     "location": "Chattogram, Bangladesh",
-    "description": "Indigenous Bangladeshi breed adapted to local climate.",
+    "description": "Bangladeshi breed adapted to local climate.",
     "image": "https://api.bracai.net/storage/media/original/267-rc-pro-1-1721024491.jpg",
     "category": "Local Breed"
   },
@@ -60,7 +60,7 @@
     "weight": 720,
     "age": 6,
     "location": "Sylhet, Bangladesh",
-    "description": "Hardy beef breed suitable for various climates.",
+    "description": "HardyBeef breed suitable various climates.",
     "image": "https://www.herefordcattle.org/wp-content/uploads/2022/03/DSC_0023.jpg",
     "category": "Meat Production"
   },

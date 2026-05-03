@@ -34,7 +34,7 @@ const AllAnimalsPage = () => {
                 </ul>
             </div>
 
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid grid-cols-4 gap-5">
                 {
                     sortedAnimals.map(data => <AnimalCard key={data.id} data={data}></AnimalCard>)
                 }
