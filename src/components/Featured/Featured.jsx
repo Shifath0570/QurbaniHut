@@ -8,7 +8,7 @@ const Featured =async () => {
     return (
         <div className="container mx-auto ">
             <h2 className="text-center text-3xl font-semibold my-15">Featured Animals</h2>
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 {
                     datas.map(data=> <FeatureCard key={data.id} data={data}></FeatureCard>)
                 }

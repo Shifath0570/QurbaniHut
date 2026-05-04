@@ -8,7 +8,7 @@ const BestBreedAndTips =async () => {
     return (
         <div className="container mx-auto">
             <h2 className="text-center text-3xl font-semibold my-15"> Best Breed And Tips</h2>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {
                     datas.map(data=> <BestBreadCard key={data.id} data={data}></BestBreadCard>)
                 }
