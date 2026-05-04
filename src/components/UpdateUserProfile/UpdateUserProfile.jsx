@@ -13,7 +13,7 @@ export function UpdateUserProfile() {
         const name = form.name.value;
         const image = form.image.value;
 
-        console.log(name, image);
+        console.log({ name, image });
 
         await authClient.updateUser({
             name,
@@ -37,7 +37,7 @@ export function UpdateUserProfile() {
                         <Modal.Body className="p-6">
                             <Surface variant="default">
                                 <form onSubmit={onSubmit} className="flex flex-col gap-4">
-                                    <TextField className="w-full" name="name" type="name">
+                                    <TextField className="w-full" name="name" type="text">
                                         <Label>Name</Label>
                                         <Input placeholder="Enter your name" />
                                     </TextField>
@@ -45,13 +45,13 @@ export function UpdateUserProfile() {
                                         <Label>Image URL</Label>
                                         <Input placeholder="Image URL" />
                                     </TextField>
+                                    <Modal.Footer className="my-5">
+                                        <Button type="button" variant="secondary">
+                                            Cancel
+                                        </Button>
+                                        <Button type="submit" slot="close">Save</Button>
+                                    </Modal.Footer>
                                 </form>
-                                <Modal.Footer className="my-5">
-                                    <Button type="button" slot="close" variant="secondary">
-                                        Cancel
-                                    </Button>
-                                    <Button type="submit" slot="close">Save</Button>
-                                </Modal.Footer>
                             </Surface>
                         </Modal.Body>
                     </Modal.Dialog>
