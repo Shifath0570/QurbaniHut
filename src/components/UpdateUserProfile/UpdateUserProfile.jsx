@@ -13,8 +13,6 @@ export function UpdateUserProfile() {
         const name = form.name.value;
         const image = form.image.value;
 
-        console.log({ name, image });
-
         await authClient.updateUser({
             name,
             image

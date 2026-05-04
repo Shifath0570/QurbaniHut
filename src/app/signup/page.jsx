@@ -13,7 +13,6 @@ const SignUpPage = () => {
         const formData = new FormData(e.currentTarget);
         const userData = Object.fromEntries(formData.entries())
 
-        console.log("Form Data Submit", userData)
 
         const { data, error } = await authClient.signUp.email({
             name: userData.name,

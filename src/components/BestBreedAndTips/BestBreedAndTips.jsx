@@ -4,7 +4,6 @@ import BestBreadCard from "../BestBreadCard/BestBreadCard";
 
 const BestBreedAndTips =async () => {
     const datas =await getBreadTips();
-    console.log(datas)
     
     return (
         <div className="container mx-auto">

@@ -10,7 +10,7 @@ const AllAnimalsPage = () => {
     const [sortOrder, setSortOrder] = useState("");
 
     useEffect(() => {
-        fetch("https://qurbani-hut-iyr5.vercel.app/data/data.json")
+        fetch("https://mynextqurbaniproject.vercel.app/data/data.json")
             .then(res => res.json())
             .then(data => setAnimals(data));
     }, []);

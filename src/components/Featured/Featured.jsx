@@ -2,7 +2,7 @@ import FeatureCard from "../FeatureCard/FeatureCard";
 
 
 const Featured =async () => {
-    const res = await fetch("https://qurbani-hut-iyr5.vercel.app/data/featureData.json")
+    const res = await fetch("https://mynextqurbaniproject.vercel.app/data/featureData.json")
     const datas = await res.json()
 
     return (
